@@ -61,14 +61,7 @@ function isMatch(value) {
       }, 800);
     }
   }
-  if (scoreCount == 8) {
-    win();
-  }
 }
 
 
-const win = () => {
-  alert("Parabéns, você completou o jogo! A página será reiniciada para tentar novamente!");
-  document.location.reload(true);
-}
 
